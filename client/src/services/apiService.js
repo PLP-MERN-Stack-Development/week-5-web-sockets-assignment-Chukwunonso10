@@ -1,7 +1,7 @@
 import axios from "axios"
 
 // Configure axios defaults
-axios.defaults.baseURL = "http://localhost:5000"
+axios.defaults.baseURL = "https://real-time-chat-application-b9dc.onrender.com"||"http://localhost:5000"
 axios.defaults.timeout = 10000
 
 // Request interceptor to add auth token
